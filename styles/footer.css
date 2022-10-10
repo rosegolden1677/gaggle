@@ -1,0 +1,102 @@
+/* footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 40px;
+  
+  background-color: var(--clr-white-5);
+}
+
+@media (max-width: 1200px) {
+  footer {
+    /* flex item of body */
+    flex: 15%;
+
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0px;
+    padding: 0px;
+  }
+  .center-footer {
+    flex: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    /* flex item of body */
+    flex: 7%;
+  }
+  .left-footer {
+    order: 1;
+  }
+  .center-footer {
+    order: 2;
+
+    margin-right: 120px;
+  }
+  .right-footer {
+    order: 3;
+  }
+}
+
+footer p {
+  color: var(--clr-white-6);
+  font-size: 0.875rem;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/* left footer */
+.left-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+
+  cursor: pointer;
+}
+
+.left-footer p:hover {
+  text-decoration: underline;
+}
+
+/* center footer */
+.center-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+
+  cursor: pointer;
+}
+
+.center-footer p:hover {
+  text-decoration: underline;
+}
+
+.leaf-icon {
+  width: 12px;
+  height: 15px;
+}
+
+/* right footer */
+.right-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+
+  cursor: pointer;
+}
+
+.right-footer p:hover {
+  text-decoration: underline;
+}
+

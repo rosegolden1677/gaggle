@@ -1,0 +1,35 @@
+/* root styles */
+:root {
+  --clr-blue-1: rgb(26, 115, 232);
+  --clr-blue-2: rgb(40, 104, 188);
+  --clr-purple-1: rgb(242, 215, 217);
+  --clr-purple-2: rgb(211, 206, 223);
+  --clr-purple-3: rgb(156, 180, 204);
+  --clr-purple-4: rgb(116, 141, 166);
+  --clr-black-1: rgba(0,0,0,.87);
+  --clr-black-2: rgba(0,0,0,.10);
+  --clr-white-1: rgb(255, 255, 255);
+  --clr-white-2: rgb(248,249,250);
+  --clr-white-3: rgb(223, 225, 229);
+  --clr-white-4: rgb(211,211,211);
+  --clr-white-5: rgb(242, 242, 242);
+  --clr-white-6: rgb(112, 117, 122);
+}
+
+/* global styles */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 100vw;
+}
+
